@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rock Paper Scissors</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+<script src="/static/script.js"></script>
+
+</head>
+<body>
+<input type="hidden" id="csrf" value="{{ csrf_token }}">
+<h1>Rock Paper Scissors</h1>
+
+<div class="buttons">
+    <button class="rock" onclick="sendChoice('rock')">Rock</button>
+    <button class="paper" onclick="sendChoice('paper')">Paper</button>
+    <button class="scissors" onclick="sendChoice('scissors')">Scissors</button>
+</div>
+
+<div id="result"></div>
+<div id="score">Your Wins: 0 | Computer Wins: 0</div>
+
+</body>
+</html>
