@@ -1,4 +1,4 @@
-# 🪨 Rock Paper Scissors – Django Web Game
+# 🪨 Rock Paper Scissors – Django Web Game !
 
 A fully interactive, responsive, and animated **Rock–Paper–Scissors** game built using **Django**, **HTML**, **CSS**, and **JavaScript (Fetch API)**.  
 The player competes against the computer, and results are displayed instantly without reloading the page.
